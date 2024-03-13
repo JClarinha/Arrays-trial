@@ -1,6 +1,6 @@
-﻿//int [] x = new int [] {10,22,35,104,2,7};
+﻿int [] x = new int [] {10,22,35,104,2,7};
 
-/*System.Console.WriteLine("_______________________________________________________");
+System.Console.WriteLine("_______________________________________________________");
 
 foreach (int i in x)
 {
@@ -25,10 +25,10 @@ foreach (int i in x)
     System.Console.WriteLine(i);
 }
 
-System.Console.WriteLine("_______________________________________________________");*/
+System.Console.WriteLine("_______________________________________________________");
 
 
-/*System.Console.WriteLine("Quantas tentativas queres para adivinhares o numero em que estou a pensar? \nLembra-te quantas mais, mais tens de escrever!!!");
+System.Console.WriteLine("Quantas tentativas queres para adivinhares o numero em que estou a pensar? \nLembra-te quantas mais, mais tens de escrever!!!");
 int tentativas =  int.Parse(System.Console.ReadLine());
 
 int [] game = new int [tentativas]; 
@@ -53,12 +53,12 @@ while (!game.Contains(7))
     }
     System.Console.ReadLine();
 
-}*/
+}
 
 
 //____________________________________________________________________________________________________________________________________________
 
-int [,] x = 
+int [,] z = 
 {
 {1,2,3,4,5},
 {6,7,8,9,10},
@@ -67,14 +67,15 @@ int [,] x =
 {21,22,23,24,25}
 };
 
-int rowLength = x.GetLength(0);
-int colLength = x.GetLength(1);
+int rowLength = z.GetLength(0);
+int colLength = z.GetLength(1);
 
 for (int i = 0; i < rowLength; i++)
 {
     for (int j = 0; j < colLength; j++)
     {
-        System.Console.WriteLine(string.Format("{0}" , x[i,j]));
+        System.Console.Write(z[i,j]);
+        Console.Write("\t");
     }
     Console.Write("\n\n");
 }
@@ -91,17 +92,17 @@ int [][] y = new int [][]
 
 };
 
+Console.WriteLine("\n\n");
+Console.Beep();
 
-/*int rowLengthy = y.GetLength(0); 
-int colLengthy = y.GetLength(1); 
-System.Console.WriteLine(y.GetLength(1));
-System.Console.WriteLine(y.GetLength(0) );
 
-for (int i = 0; i < rowLengthy; i++)
+
+for (int i = 0; i < y.Length; i++)
 {
-    for (int j = 0; j < colLengthy; j++)
+    for (int j = 0; j < y.Length; j++)
     {
-        System.Console.WriteLine(string.Format("{0}" , y[i][j]));
+        System.Console.Write(y[i][j]);
+        Console.Write("\t");
     }
     Console.Write("\n\n");
-}*/
+}

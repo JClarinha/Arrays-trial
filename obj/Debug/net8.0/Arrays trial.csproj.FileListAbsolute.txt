@@ -12,3 +12,4 @@ C:\Users\joaoc\Desktop\Arrays trial\obj\Debug\net8.0\refint\Arrays trial.dll
 C:\Users\joaoc\Desktop\Arrays trial\obj\Debug\net8.0\Arrays trial.pdb
 C:\Users\joaoc\Desktop\Arrays trial\obj\Debug\net8.0\Arrays trial.genruntimeconfig.cache
 C:\Users\joaoc\Desktop\Arrays trial\obj\Debug\net8.0\ref\Arrays trial.dll
+C:\Users\joaoc\Desktop\Arrays trial\obj\Debug\net8.0\Arrays trial.sourcelink.json
